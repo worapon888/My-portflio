@@ -115,7 +115,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | Articles Page</title>
+        <title>PORTFLIO | Articles Page</title>
         <meta name="description" content="any desciption" />
       </Head>
       <transitionEffect />

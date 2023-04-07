@@ -5,10 +5,10 @@ import AnimatedText from "@/component/animatedText";
 import Link from "next/link";
 import { GithubIcon } from "@/component/icon";
 import project1 from "../../public/images/projects/pig game.png";
-import project2 from "../../public/images/projects/project_Banklish.png";
+import project2 from "../../public/images/projects/Nike store commerce.png";
 import project3 from "../../public/images/projects/Mapty APP.png";
-import project4 from "../../public/images/projects/outdoors.png";
-import project5 from "../../public/images/projects/SHOP E-commerce.png";
+import project4 from "../../public/images/projects/project_Banklish.png";
+import project5 from "../../public/images/projects/outdoors.png";
 import project6 from "../../public/images/projects/omnifood.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/component/TransitionEffect1";
@@ -139,7 +139,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | Projects Page</title>
+        <title>PORTFLIO | Projects Page</title>
         <meta name="description" content="any desciption" />
       </Head>
       <TransitionEffect />
@@ -152,15 +152,15 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Bankist WebApp"
-                summary="Bank Website Application
+                title="Nike Store Commerce"
+                summary="Nike Store Commerce Website 
 A feature-rich Money App using HTML,  CSS, Javascirpt, React Router and Recharts. 
 It shows detail regarding almost all the account. You can easily convert the price in your 
 local money."
-                link="https://silly-dusk-cebe99.netlify.app/"
-                type="Feature Project"
+                link="https://nike-store-commerce-rho.vercel.app/"
+                type="Project:React vite"
                 img={project2}
-                github="https://github.com/worapon888/Bankweb-app-vol.2"
+                github="https://github.com/worapon888/Nike-Store-commerce"
               />
             </div>
 
@@ -169,7 +169,7 @@ local money."
                 title="Mapty WebApp"
                 summary="Mapty Website Application"
                 link="https://resplendent-gumption-f6ddfb.netlify.app/"
-                type="Project"
+                type="Project: Javascript"
                 img={project3}
                 github="https://github.com/worapon888/running-map"
               />
@@ -181,7 +181,7 @@ local money."
                 title="Pig game"
                 summary="Pig Game"
                 link="https://inquisitive-narwhal-8ea495.netlify.app/"
-                type="Project"
+                type="Project: Javascript"
                 img={project1}
                 github="https://github.com/worapon888/Pig-Game"
               />
@@ -190,21 +190,21 @@ local money."
             <div className="col-span-12">
               {" "}
               <FeaturedProject
-                title="Outdoors Website"
-                summary="Outdoors Tours Travel Website"
-                link="https://dazzling-biscotti-1b6461.netlify.app/"
-                type="Feature Project"
+                title="Banklist Website project"
+                summary="Banklist Website"
+                link="https://silly-dusk-cebe99.netlify.app/"
+                type="Project: Html CSS Javascript"
                 img={project4}
-                github="https://github.com/worapon888/natour-travel"
+                github="https://github.com/worapon888/Bankweb-app-vol.2"
               />
             </div>
             <div className="col-span-6  sm:col-span-12">
               {" "}
               <Project
-                title="Shop E-commerce WebApp"
-                summary="Shop E-commerce WebApp"
-                link="https://incredible-nasturtium-44eeb6.netlify.app/shop"
-                type="Project"
+                title="OUTDOORS Website"
+                summary="Outdoors tour travel Website"
+                link="https://dazzling-biscotti-1b6461.netlify.app/"
+                type="Project: HTML SASS"
                 img={project5}
                 github="https://github.com/worapon888/crwn-clothing"
               />
@@ -215,7 +215,7 @@ local money."
                 title="Omnifood Website"
                 summary="Omnifood Website"
                 link="https://magnificent-bombolone-4d0f12.netlify.app/"
-                type="Project"
+                type="Project: HTML CSS"
                 img={project6}
                 github="https://github.com/worapon888/Omnifood"
               />

@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | About Page</title>
+        <title>PORTFLIO | About Page</title>
         <meta name="description" content="any desciption" />
       </Head>
       <TransitionEffect />
@@ -54,11 +54,11 @@ const about = () => {
                 Biography
               </h2>
               <p className="my-4 font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 1 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                Hi, I'm Worapon jintajirakul, a web developer and UI/UX designer
+                with a passion for creating beautiful, functional, and
+                user-centered digital experiences. With 1 years of experience in
+                the field. I am always looking for new and innovative ways to
+                bring my clients' visions to life.
               </p>
               <p className=" font-medium">
                 I believe that design is about more than just making things look
